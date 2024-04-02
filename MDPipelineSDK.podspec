@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.authors          = { 'Hen Sh' => 'hensh2@gmail.com' }
   s.source           = { :git => 'https://github.com/hensh2/MDPipelineSDK.git', :tag => s.version }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'MDPipelineSDK.xcframework'
   s.dependency 'medallia-digital-ios-sdk'
 end
