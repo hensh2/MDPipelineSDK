@@ -1,0 +1,11 @@
+framework module MDPipelineSDK {
+  umbrella header "MDPipelineSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module MDPipelineSDK.Swift {
+  header "MDPipelineSDK-Swift.h"
+  requires objc
+}
