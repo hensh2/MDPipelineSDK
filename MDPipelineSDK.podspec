@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/hensh2/MDPipelineSDK'
   s.license          = { :type => "Commercial", :text => "Copyright © 2024. Use subject to licensing terms." }
   s.authors          = { 'Hen Sh' => 'hensh2@gmail.com' }
-  s.source           = { :git => 'https://github.com/hensh2/MDPipelineSDK', :tag => s.version }
+  s.source           = { :git => 'https://github.com/hensh2/MDPipelineSDK.git', :tag => s.version }
 
-  #s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'MDPipelineSDK.xcframework'
 end
